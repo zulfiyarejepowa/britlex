@@ -1,0 +1,89 @@
+@media screen and (max-width: 992px) {
+    body {
+        padding: 0 5%;
+    }
+    header {
+        gap: 10px;
+    }
+    ul {
+        gap: 20px;
+    }
+    .home {
+        gap: 5px;
+    }
+    #bulb {
+        visibility: hidden;
+    }
+    .home h2 {
+        font-size: 48px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .skills-content p {
+        font-size: 14px;
+    }
+    .speaking img {
+        width: 300px;
+    }
+    .writing img {
+        width: 180px;
+    }
+    .reading img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        padding: 0 5%;
+        width: 570px;
+    }
+    header {
+        gap: 10px;
+    }
+    ul {
+        gap: 20px;
+    }
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30% 0 30%;
+        width: 570px;
+    }
+    .home h2 {
+        font-size: 34px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .skills-content {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap: 3%;
+    }
+    .speaking {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .writing {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .reading {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .listening {
+        grid-column: 2;
+        grid-row: 2;
+        flex-direction: column-reverse;
+    }
+    .skills-content p {
+        font-size: 14px;
+    }
+}
